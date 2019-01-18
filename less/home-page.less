@@ -65,6 +65,10 @@
     justify-content: center;
 
     @media @mobile {
+      margin-top: 15px;
+    }
+
+    @media @mobile {
       .flex();
       flex-direction: column;
       padding: 10px 10px;
@@ -91,6 +95,12 @@
 
     .btn {
       .customButton(30%, white, @btn-bg-color);
+      cursor: pointer;
+
+      &:hover {
+        background-color: @shuttle-gray;
+        color: white;
+      }
 
       @media @mobile {
         .customButton(100%, white, @btn-bg-color);
@@ -115,4 +125,5 @@
     border-radius: 10px;
   }
 }
+
 // home
