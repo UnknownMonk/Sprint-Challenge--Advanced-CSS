@@ -1,1 +1,19 @@
 // Mixins Here
+
+.center() {
+  text-align: center;
+}
+.flex() {
+  display: flex;
+}
+.customButton( @width,@color,@bgcolor) {
+  font-size: 1.8rem;
+  width: @width;
+  padding: 1rem;
+  background-color: @bgcolor;
+  color: @color;
+  border-radius: 10px;
+  text-align: center;
+}
+//Media queries
+@mobile: ~'(max-width: 500px)';
