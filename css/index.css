@@ -185,7 +185,7 @@ p {
 .navigation .tesla {
   position: absolute;
   z-index: 10px;
-  left: -350px;
+  left: -400px;
   width: 400px;
   height: 100px;
   animation: tesla 20s;
