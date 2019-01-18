@@ -182,6 +182,35 @@ p {
 .navigation nav a:hover {
   color: #22283A;
 }
+.navigation .tesla {
+  position: absolute;
+  z-index: 10px;
+  left: -350px;
+  width: 400px;
+  height: 100px;
+  animation: tesla 20s;
+}
+@media (max-width: 500px) {
+  .navigation .tesla {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .navigation .tesla {
+    display: none;
+  }
+}
+@keyframes tesla {
+  from {
+    position: absolute;
+    left: -300px;
+  }
+  to {
+    position: absolute;
+    left: 1800px;
+    display: none;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

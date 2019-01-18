@@ -19,4 +19,31 @@
       }
     }
   }
+
+  .tesla {
+    position: absolute;
+    z-index: 10px;
+    left: -350px;
+    width: 400px;
+    height: 100px;
+    .animation(tesla, 20s);
+    @media @mobile {
+      display: none;
+    }
+    @media @mobile {
+      display: none;
+    }
+  }
+
+  @keyframes tesla {
+    from {
+      position: absolute;
+      left: -300px;
+    }
+    to {
+      position: absolute;
+      left: 1800px;
+      display: none;
+    }
+  }
 }
